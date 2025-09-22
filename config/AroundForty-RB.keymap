@@ -24,6 +24,26 @@
             bindings = <&kp LANG2>;
             key-positions = <16 17>;
         };
+
+        comboESC {
+            bindings = <&kp ESCAPE>;
+            key-positions = <31 32>;
+        };
+
+        comboTAB {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+        };
+
+        comboNumLock {
+            bindings = <&kp KP_NUMLOCK>;
+            key-positions = <29 30>;
+        };
+
+        comboCAPS {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <41 40>;
+        };
     };
 
     macros {
